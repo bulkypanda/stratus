@@ -230,8 +230,7 @@ const getCourseData = (cookies, id, name) => {
       }
 
       const txt = $.html();
-
-      const startStr = "\"dataSource\":";
+      const startStr = "ue,\"dataSource\":";
       const endStr = "}],";
       const dataStart = txt.indexOf(startStr) + startStr.length;
       const dataEnd = txt.indexOf(endStr, dataStart);

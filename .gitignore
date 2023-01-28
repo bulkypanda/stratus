@@ -1,5 +1,6 @@
-node_modules
+node_modules/
 public/styles/*.css
+package-lock.json
 *.swp
 
 .env

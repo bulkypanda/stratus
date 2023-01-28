@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const url = process.env.MONGO_DB_URL || "mongodb://localhost/stratus";
+const url = process.env.MONGO_DB_URL || "mongodb+srv://bulkypanda:Y75Luz5qXtuq0FZZ@cluster0.mzzy2ov.mongodb.net/test";
 
 mongoose.set('useCreateIndex', true);
 

@@ -4,7 +4,7 @@ const router = express.Router();
 const { getCourses, getCourseData, getTasks } = require("../api.js");
 
 
-const NAME = "Semester 2 FInal"
+const NAME = "Semester 1 Final"
 router.get("/", async (req, res, next) => {
   const { courses } = await getCourses(req.session.cookies, NAME);
 
